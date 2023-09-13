@@ -23,8 +23,8 @@ def main(expression: str):
         # answer = add(array_of_operands)
         pass
     elif expression_array[1] == '-':
-        # answer = substruct(array_of_operands)
-        pass
+        answer = substruct(array_of_operands)
+        
     elif expression_array[1] == '*':
         # answer = multiple(array_of_operands)
         pass
@@ -40,7 +40,8 @@ def add(arr_of_operands: list):
 
 
 def substruct(arr_of_operands: list):
-    pass
+    # substruct
+    return arr_of_operands[0]-arr_of_operands[1]
 
 
 def multiple(arr_of_operands: list):
