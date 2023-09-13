@@ -26,10 +26,10 @@ def main(expression: str):
         # answer = substruct(array_of_operands)
         pass
     elif expression_array[1] == '*':
-        # answer = multiple(array_of_operands)
+        answer = multiple(array_of_operands)
         pass
     elif expression_array[1] == '/':
-        answer = divide(array_of_operands)
+        # answer = divide(array_of_operands)
         pass
 
     print(answer)
