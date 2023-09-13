@@ -27,7 +27,6 @@ def main(expression: str):
         pass
     elif expression_array[1] == '*':
         answer = multiple(array_of_operands)
-        pass
     elif expression_array[1] == '/':
         # answer = divide(array_of_operands)
         pass
