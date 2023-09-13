@@ -29,7 +29,7 @@ def main(expression: str):
         # answer = multiple(array_of_operands)
         pass
     elif expression_array[1] == '/':
-        # answer = divide(array_of_operands)
+        answer = divide(array_of_operands)
         pass
 
     print(answer)
@@ -44,7 +44,8 @@ def substruct(arr_of_operands: list):
 
 
 def multiple(arr_of_operands: list):
-    pass
+    answer = arr_of_operands[0] * arr_of_operands[1]
+    return answer
 
 
 def divide(arr_of_operands: list):
