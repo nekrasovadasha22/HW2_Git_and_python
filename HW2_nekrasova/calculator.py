@@ -49,9 +49,10 @@ def multiple(arr_of_operands: list):
 def divide(arr_of_operands: list):
     if arr_of_operands[1] != 0:
         answer = arr_of_operands[0]/arr_of_operands[1]
-            return answer
+        return answer
     else:
         answer = 'Деление на 0!'
+	return answer
 
 
 
