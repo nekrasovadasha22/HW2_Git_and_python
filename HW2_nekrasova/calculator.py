@@ -20,10 +20,10 @@ def main(expression: str):
     answer = None
 
     if expression_array[1] == '+':
-        # answer = add(array_of_operands)
-        pass
+        answer = add(array_of_operands)
+
     elif expression_array[1] == '-':
-        # answer = substruct(array_of_operands)
+        answer = substruct(array_of_operands)
         pass
     elif expression_array[1] == '*':
         # answer = multiple(array_of_operands)
@@ -36,8 +36,7 @@ def main(expression: str):
 
 
 def add(arr_of_operands: list):
-    pass
-
+    return arr_of_operands[0] + arr_of_operands[2]
 
 def substruct(arr_of_operands: list):
     pass
