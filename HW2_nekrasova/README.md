@@ -1,5 +1,5 @@
 # Basic calculator
-* This repo is for the 2nd homework of Python 2023 course*
+*This repo is for the 2nd homework of Python 2023 course*
 
 ### Calculator description
 This branch (HW2_nekrasova) contains calculator.py script designed to operate with two numbers via one of the following basic mathematical functions: addition, subtraction, multiplication, division.
@@ -11,7 +11,7 @@ Calculator is a straight forward script that does not need any prerequisites apa
 After this the script is ready to recieve your mathematical expression.
 
 ### Development
-This project is leaded by Nekrasova D. with contributions from the following people: 
+This project is leaded by nekrasovadasha22 with contributions from the following people: 
 - grishchenkoira
 - anisssum
 - NSapozhnikov
