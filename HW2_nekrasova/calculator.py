@@ -26,8 +26,7 @@ def main(expression: str):
         # answer = substruct(array_of_operands)
         pass
     elif expression_array[1] == '*':
-        # answer = multiple(array_of_operands)
-        pass
+        answer = multiple(array_of_operands)
     elif expression_array[1] == '/':
         # answer = divide(array_of_operands)
         pass
@@ -44,7 +43,8 @@ def substruct(arr_of_operands: list):
 
 
 def multiple(arr_of_operands: list):
-    pass
+    answer = arr_of_operands[0] * arr_of_operands[1]
+    return answer
 
 
 def divide(arr_of_operands: list):
