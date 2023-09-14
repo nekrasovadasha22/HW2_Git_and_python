@@ -28,8 +28,7 @@ def main(expression: str):
     elif expression_array[1] == '*':
         answer = multiple(array_of_operands)
     elif expression_array[1] == '/':
-        # answer = divide(array_of_operands)
-        pass
+        answer = divide(array_of_operands)
 
     print(answer)
 
@@ -49,7 +48,12 @@ def multiple(arr_of_operands: list):
 
 
 def divide(arr_of_operands: list):
-    pass
+    if arr_of_operands[1] != 0:
+        answer = arr_of_operands[0]/arr_of_operands[1]
+        return answer
+    else:
+        answer = 'Деление на 0!'
+	return answer
 
 
 
