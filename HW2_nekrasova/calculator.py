@@ -36,7 +36,7 @@ def main(expression: str):
 
 
 def add(arr_of_operands: list):
-    return arr_of_operands[0] + arr_of_operands[2]
+    return arr_of_operands[0]+arr_of_operands[2]
 
 def substruct(arr_of_operands: list):
     pass
