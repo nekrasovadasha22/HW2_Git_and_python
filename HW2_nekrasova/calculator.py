@@ -14,8 +14,8 @@ def main(expression: str):
         right_int = int(expression_array[2])
         array_of_operands.append(right_int)
     except:
-       left_float = float(expression_array[2])
-       array_of_operands.append(left_float)
+       right_float = float(expression_array[2])
+       array_of_operands.append(right_float)
 
     answer = None
 
@@ -34,7 +34,7 @@ def main(expression: str):
 
 
 def add(arr_of_operands: list):
-    return arr_of_operands[0]+arr_of_operands[2]
+    return arr_of_operands[0]+arr_of_operands[1]
 
 def substruct(arr_of_operands: list):
     # substruct
@@ -52,7 +52,7 @@ def divide(arr_of_operands: list):
         return answer
     else:
         answer = 'Деление на 0!'
-	return answer
+    return answer
 
 
 
