@@ -24,13 +24,11 @@ def main(expression: str):
 
     elif expression_array[1] == '-':
         answer = substruct(array_of_operands)
-        pass
+       
     elif expression_array[1] == '*':
-        # answer = multiple(array_of_operands)
-        pass
+        answer = multiple(array_of_operands)
     elif expression_array[1] == '/':
-        # answer = divide(array_of_operands)
-        pass
+        answer = divide(array_of_operands)
 
     print(answer)
 
@@ -39,15 +37,22 @@ def add(arr_of_operands: list):
     return arr_of_operands[0]+arr_of_operands[2]
 
 def substruct(arr_of_operands: list):
-    pass
+    # substruct
+    return arr_of_operands[0]-arr_of_operands[1]
 
 
 def multiple(arr_of_operands: list):
-    pass
+    answer = arr_of_operands[0] * arr_of_operands[1]
+    return answer
 
 
 def divide(arr_of_operands: list):
-    pass
+    if arr_of_operands[1] != 0:
+        answer = arr_of_operands[0]/arr_of_operands[1]
+        return answer
+    else:
+        answer = 'Деление на 0!'
+	return answer
 
 
 
