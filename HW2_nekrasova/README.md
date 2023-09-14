@@ -18,3 +18,4 @@ This project is leaded by nekrasovadasha22 with contributions from the following
 - Komarov I.
 
 Feel free to report any bugs encountered to nekrasovadasha22.
+![photo_2023-09-13_19-43-30](https://github.com/nekrasovadasha22/HW2_Git_and_python/assets/144455860/d11f2906-21e0-4eda-9849-b58d64b312c8)
